@@ -1,0 +1,9 @@
+#printf "so $HOME/dotfiles/vim/vimrc.vim" > ~/.vimrc
+#printf "source-file $HOME/dotfiles/tmux/tmux.conf" > ~/.tmux.conf
+
+
+# VS Code
+if [ ! -d $HOME/.config/Code/User ]; then
+	mkdir -p $HOME/.config/Code/User;
+fi
+cp $HOME/dotfiles/vscode/*.json $HOME/.config/Code/User/

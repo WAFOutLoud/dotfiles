@@ -1,0 +1,11 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "command": "workbench.view.explorer",
+        "key": "ctrl+1"
+    },
+    {
+        "command": "explorer.newFile",
+        "key": "ctrl+n"
+    }
+]
