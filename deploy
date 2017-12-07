@@ -1,5 +1,5 @@
-#printf "so $HOME/dotfiles/vim/vimrc.vim" > ~/.vimrc
-#printf "source-file $HOME/dotfiles/tmux/tmux.conf" > ~/.tmux.conf
+printf "so $HOME/dotfiles/vim/vimrc.vim" > ~/.vimrc
+printf "source-file $HOME/dotfiles/tmux/tmux.conf" > ~/.tmux.conf
 
 
 # VS Code
